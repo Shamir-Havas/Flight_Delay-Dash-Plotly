@@ -1,4 +1,4 @@
-#✈️ Flight Delay Time Statistics Dashboard
+<B>✈️ Flight Delay Time Statistics Dashboard</B>
 
 A modern interactive dashboard to explore flight delay trends across U.S. airlines.
 
