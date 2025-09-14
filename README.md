@@ -14,6 +14,7 @@ Compare delay causes such as Carrier, Weather, NAS, Security, and Late Aircraft
 Get insights into how delays vary by year and airline
 
 This project demonstrates my data science & visualization skills through:
+
 <BR>
 📊 Data preprocessing & aggregation in Pandas
 
@@ -23,9 +24,10 @@ This project demonstrates my data science & visualization skills through:
 
 🔄 Clean modular code optimized for VS Code
 
-📸 Demo / Screenshots
+📸Screenshots
 <p align="center"> <img src="assets/dashboard_home.png" alt="Dashboard Screenshot 1" width="700"/> </p> <p align="center"> <img src="assets/dashboard_charts.png" alt="Dashboard Screenshot 2" width="700"/> </p>
 <BR>
+
 <B>✨ Features</B>
 
 ✅ Interactive year selection with real-time chart updates
@@ -40,6 +42,7 @@ This project demonstrates my data science & visualization skills through:
 
 ✅ Automatic browser launch when running the app
 <BR>
+
 <B>🛠 Tech Stack</B>
 
 Programming Language: Python 3.x
@@ -50,6 +53,7 @@ Tools: Jupyter/VS Code, Git, Web Browser
 
 Dataset: Airline Delay Data (2010–2020)
 <BR>
+
 <B>🔄 Workflow</B> 
 
 Data Loading – Import flight delay dataset (CSV from IBM Skills Network)
@@ -64,6 +68,7 @@ Interactivity – Callback functions update charts dynamically based on year inp
 
 Execution – Run locally with automatic browser launch
 <BR>
+
 <B>📊 Results & Insights</B>
 
 Airlines experience different seasonal delay trends across categories.
