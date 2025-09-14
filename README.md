@@ -2,7 +2,7 @@
 
 A modern interactive dashboard to explore flight delay trends across U.S. airlines.
 
-📖 About the Project
+<B>📖 About the Project<B>
 
 This project is an interactive data visualization dashboard that analyzes airline delay patterns in the U.S. between 2010–2020.
 Using Dash, Plotly, and Pandas, the dashboard enables users to:
@@ -14,11 +14,11 @@ Compare delay causes such as Carrier, Weather, NAS, Security, and Late Aircraft
 Get insights into how delays vary by year and airline
 
 This project demonstrates my data science & visualization skills through:
-
+<BR>
 📊 Data preprocessing & aggregation in Pandas
 
 🎨 Interactive, responsive charts in Plotly Dash
-
+<BR>
 🖥️ Full-stack deployment of a dashboard
 
 🔄 Clean modular code optimized for VS Code
@@ -38,7 +38,7 @@ This project demonstrates my data science & visualization skills through:
 ✅ Responsive layout (works across screen sizes)
 
 ✅ Automatic browser launch when running the app
-
+<BR>
 🛠 Tech Stack
 
 Programming Language: Python 3.x
@@ -48,7 +48,7 @@ Libraries: Pandas, Plotly Express, Dash
 Tools: Jupyter/VS Code, Git, Web Browser
 
 Dataset: Airline Delay Data (2010–2020)
-
+<BR>
 🔄 Workflow / Project Pipeline
 
 Data Loading – Import flight delay dataset (CSV from IBM Skills Network)
@@ -62,7 +62,7 @@ Visualization – Line plots using Plotly Express with dark theme
 Interactivity – Callback functions update charts dynamically based on year input
 
 Execution – Run locally with automatic browser launch
-
+<BR>
 📊 Results & Insights
 
 Airlines experience different seasonal delay trends across categories.
@@ -73,7 +73,9 @@ Carrier-related delays vary significantly among airlines.
 
 The dashboard allows users (airlines, researchers, passengers) to identify root causes of delays.
 
+ 
 ⚡ How to Run Locally
+
 # Clone this repository
 git clone https://github.com/yourusername/flight-delay-dashboard.git  
 
