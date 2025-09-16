@@ -69,11 +69,9 @@ Run the application:
 
 bash
 Copy code
-python python_flight_delay_vscode.py
+python python_flight_delay_vscode.py<br>
 Open in browser:
 
-cpp
-Copy code
 http://127.0.0.1:8050/
 
 <b>📊 Results & Dashboard</b>
