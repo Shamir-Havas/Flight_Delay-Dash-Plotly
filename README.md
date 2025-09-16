@@ -1,41 +1,47 @@
 # <b>✈️ Flight Delay Dashboard — Dash & Plotly</b>  
 
 An interactive analytics dashboard for exploring **U.S. flight delay causes** between 2010–2020.  
-Built with **Dash + Plotly**, the project demonstrates dashboard engineering, data visualization, and storytelling with data.  
+Built with **Dash + Plotly**, the project demonstrates **dashboard engineering, data visualization, and storytelling with data**.  
 Designed to be **interview-ready**, with emphasis on **clarity, reproducibility, and professional presentation**.  
 
 ---
 
-## <b> 📂 Project Structure  </b>
+## <b>📂 Project Structure</b>  
 
 ├── python_flight_delay_vscode.py # Main Dash application
-├── images/ # Dashboard screenshots (to be added)
+├── dashboard_layout.png # Dashboard overview screenshot
+├── carrier_delays.png # Carrier delay plot
+├── weather_delays.png # Weather delay plot
+├── nas_security.png # NAS & Security delay plot
+├── late_delays.png # Late aircraft delay plot
 ├── README.md # Project documentation
 
+markdown
+Copy code
 
 ---
 
-## <b>⚙️ Skills & Tech </b> 
+## <b>⚙️ Skills & Tech</b>  
 
 - **Languages:** Python  
 - **Libraries:** Pandas, Plotly, Dash  
-- **Visualization:** Interactive line charts, dark theme, tooltips  
-- **Dashboarding:** Dash callbacks, responsive layout  
+- **Visualization:** Interactive line charts, dark theme, hover tooltips  
+- **Dashboarding:** Dash callbacks, responsive multi-plot layout  
 - **Environment:** VS Code, auto browser launch  
 
 ---
 
-## <b>📝 Project Overview </b> 
+## <b>📝 Project Overview</b>  
 
 This project builds an **interactive dashboard** that helps analyze causes of flight delays.  
 
-Workflow highlights:  
+**Workflow highlights:**  
 1. **Data Loading** — U.S. flight delay dataset (2010–2020)  
 2. **Computation** — Aggregating monthly averages for each delay type  
 3. **Dashboard UI** — Year selector + five interactive plots  
 4. **Interactivity** — Real-time updates when a year is selected  
 
-** <b>Delay categories analyzed:<b>**  
+**<b>Delay categories analyzed:</b>**  
 - Carrier  
 - Weather  
 - NAS (National Airspace System)  
@@ -44,7 +50,7 @@ Workflow highlights:
 
 ---
 
-## <b>📊 Dataset  </b>
+## <b>📊 Dataset</b>  
 
 - **Source:** [U.S. Department of Transportation – Bureau of Transportation Statistics](https://www.transtats.bts.gov/)  
 - **Records:** ~500,000 flight records  
@@ -54,7 +60,7 @@ Workflow highlights:
 
 ---
 
-## <b>▶️ How to Run </b> 
+## <b>▶️ How to Run</b>  
 
 1. Clone this repository:  
    ```bash
@@ -69,13 +75,13 @@ Run the application:
 
 bash
 Copy code
-python python_flight_delay_vscode.py<br>
+python python_flight_delay_vscode.py
 Open in browser:
 
+cpp
+Copy code
 http://127.0.0.1:8050/
-
 <b>📊 Results & Dashboard</b>
-
 🔹 Dashboard Layout
 
 🔹 Carrier Delay Trends
@@ -87,7 +93,6 @@ http://127.0.0.1:8050/
 🔹 Late Aircraft Delay Trends
 
 <b>🔍 Insights</b>
-
 Carrier delays rise in summer due to higher passenger volumes.
 
 Weather delays peak in winter, especially for northern hubs.
@@ -99,7 +104,6 @@ Security delays are rare but disruptive when they occur.
 Late aircraft delays are a major contributor across all years.
 
 <b>🚀 Future Improvements</b>
-
 Deploy live dashboard (Heroku / Render)
 
 Enhance UI with advanced filtering (airport, airline)
@@ -109,7 +113,9 @@ Integrate ML models to predict delays
 Add economic impact analysis of delays
 
 <b>📦 Requirements</b>
-
+ini
+Copy code
 pandas==2.0.3  
 plotly==5.17.0  
 dash==2.15.0  
+
