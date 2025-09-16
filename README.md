@@ -1,5 +1,14 @@
 # <b>✈️ Flight Delay Dashboard — Dash & Plotly</b>  
 
+![Python](https://img.shields.io/badge/Python-3.9-blue.svg)  
+![Dash](https://img.shields.io/badge/Dash-2.15+-brightgreen.svg)  
+![Plotly](https://img.shields.io/badge/Plotly-Visualization-lightblue.svg)  
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange.svg)  
+
+<p align="center">
+  <img src="dashboard_layout.png" alt="Dashboard Overview" width="800"/>
+</p>  
+
 An interactive analytics dashboard for exploring **U.S. flight delay causes** between 2010–2020.  
 Built with **Dash + Plotly**, the project demonstrates **dashboard engineering, data visualization, and storytelling with data**.  
 Designed to be **interview-ready**, with emphasis on **clarity, reproducibility, and professional presentation**.  
@@ -82,8 +91,6 @@ cpp
 Copy code
 http://127.0.0.1:8050/
 <b>📊 Results & Dashboard</b>
-🔹 Dashboard Layout
-
 🔹 Carrier Delay Trends
 
 🔹 Weather Delay Trends
@@ -118,4 +125,3 @@ Copy code
 pandas==2.0.3  
 plotly==5.17.0  
 dash==2.15.0  
-
