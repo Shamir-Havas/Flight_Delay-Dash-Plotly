@@ -67,7 +67,26 @@ This project builds an **interactive dashboard** that helps analyze causes of fl
   - `Year`, `Month`, `Reporting_Airline`  
   - `CarrierDelay`, `WeatherDelay`, `NASDelay`, `SecurityDelay`, `LateAircraftDelay`  
 
----
+5. **Results **
+   ## 📊 Results
+
+The following screenshots highlight key parts of the Flight Delay Dashboard:
+
+### ✈️ Dashboard Layout
+![Dashboard Layout](https://github.com/Shamir-Havas/Flight_Delay-Dash-Plotly/blob/main/dashboard_layout.png?raw=true)
+
+### ⏱️ Delay Distribution
+![Delay Distribution](https://github.com/Shamir-Havas/Flight_Delay-Dash-Plotly/blob/main/delay_distribution.png?raw=true)
+
+### 🏢 Airline Performance
+![Airline Performance](https://github.com/Shamir-Havas/Flight_Delay-Dash-Plotly/blob/main/airline_performance.png?raw=true)
+
+### 🌍 Route Analysis
+![Route Analysis](https://github.com/Shamir-Havas/Flight_Delay-Dash-Plotly/blob/main/route_analysis.png?raw=true)
+
+### 📅 Seasonal Trends
+![Seasonal Trends](https://github.com/Shamir-Havas/Flight_Delay-Dash-Plotly/blob/main/seasonal_trends.png?raw=true)
+
 
 ## <b>▶️ How to Run</b>  
 
@@ -100,6 +119,7 @@ http://127.0.0.1:8050/
 🔹 Late Aircraft Delay Trends
 
 <b>🔍 Insights</b>
+
 Carrier delays rise in summer due to higher passenger volumes.
 
 Weather delays peak in winter, especially for northern hubs.
@@ -111,6 +131,7 @@ Security delays are rare but disruptive when they occur.
 Late aircraft delays are a major contributor across all years.
 
 <b>🚀 Future Improvements</b>
+
 Deploy live dashboard (Heroku / Render)
 
 Enhance UI with advanced filtering (airport, airline)
@@ -120,8 +141,7 @@ Integrate ML models to predict delays
 Add economic impact analysis of delays
 
 <b>📦 Requirements</b>
-ini
-Copy code
+
 pandas==2.0.3  
 plotly==5.17.0  
 dash==2.15.0  
