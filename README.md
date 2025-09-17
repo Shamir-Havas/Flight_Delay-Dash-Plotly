@@ -70,22 +70,27 @@ This project builds an **interactive dashboard** that helps analyze causes of fl
 5. **Results **
    ## 📊 Results
 
-The following screenshots highlight key parts of the Flight Delay Dashboard:
+## 📊 Results
 
-### ✈️ Dashboard Layout
+The dashboard provides interactive insights into different causes of flight delays.  
+Below are example visualizations generated from the app:
+
+### 🛫 Carrier Delays
+![Carrier Delays](https://github.com/Shamir-Havas/Flight_Delay-Dash-Plotly/blob/main/carrier_delays.png?raw=true)
+
+### 🌦️ Weather Delays
+![Weather Delays](https://github.com/Shamir-Havas/Flight_Delay-Dash-Plotly/blob/main/weather_delays.png?raw=true)
+
+### 🛰️ NAS & Security Delays
+![NAS & Security Delays](https://github.com/Shamir-Havas/Flight_Delay-Dash-Plotly/blob/main/nas_security.png?raw=true)
+
+### ✈️ Late Aircraft Delays
+![Late Aircraft Delays](https://github.com/Shamir-Havas/Flight_Delay-Dash-Plotly/blob/main/late_delays.png?raw=true)
+
+---
+
+### 📌 Full Dashboard Layout
 ![Dashboard Layout](https://github.com/Shamir-Havas/Flight_Delay-Dash-Plotly/blob/main/dashboard_layout.png?raw=true)
-
-### ⏱️ Delay Distribution
-![Delay Distribution](https://github.com/Shamir-Havas/Flight_Delay-Dash-Plotly/blob/main/delay_distribution.png?raw=true)
-
-### 🏢 Airline Performance
-![Airline Performance](https://github.com/Shamir-Havas/Flight_Delay-Dash-Plotly/blob/main/airline_performance.png?raw=true)
-
-### 🌍 Route Analysis
-![Route Analysis](https://github.com/Shamir-Havas/Flight_Delay-Dash-Plotly/blob/main/route_analysis.png?raw=true)
-
-### 📅 Seasonal Trends
-![Seasonal Trends](https://github.com/Shamir-Havas/Flight_Delay-Dash-Plotly/blob/main/seasonal_trends.png?raw=true)
 
 
 ## <b>▶️ How to Run</b>  
