@@ -111,9 +111,8 @@ Copy code
 python python_flight_delay_vscode.py
 Open in browser:
 
-cpp
-Copy code
-http://127.0.0.1:8050/
+
+http://127.0.0.1:8050/<br>
 <b>📊 Results & Dashboard</b>
 🔹 Carrier Delay Trends
 
@@ -123,7 +122,7 @@ http://127.0.0.1:8050/
 
 🔹 Late Aircraft Delay Trends
 
-<b>🔍 Insights</b>
+<br><b>🔍 Insights</b>
 
 Carrier delays rise in summer due to higher passenger volumes.
 
@@ -135,7 +134,7 @@ Security delays are rare but disruptive when they occur.
 
 Late aircraft delays are a major contributor across all years.
 
-<b>🚀 Future Improvements</b>
+<br><b>🚀 Future Improvements</b>
 
 Deploy live dashboard (Heroku / Render)
 
